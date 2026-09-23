@@ -1,0 +1,30 @@
+name: Generate Aviation Radar Graph
+
+on:
+  schedule:
+    # Runs automatically every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # Generates an aviation radar styled contribution SVG
+      - name: Generate Radar SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/radar-grid.svg?color_snake=#39FF14&color_dots=#121A16,#003300,#006600,#00CC00,#39FF14
+
+      # Pushes the generated file to the output branch
+      - name: Push Radar SVG to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
