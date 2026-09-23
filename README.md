@@ -27,3 +27,11 @@ STATUS : CAVOK (Ceiling and Visibility OK) | WINDS: 090@08KT | TEMP: 24°C | QNH
 MISSION: Engineering next-generation flight management systems & aerospace platforms.
 SYSTEMS: ALL AVIONICS BUSES ONLINE // DUAL-FMC SYNCHRONIZED
 ===================================================================================
+---
+
+<div align="center">
+  <h3>✈️ FLIGHT LOGBOOK / RADAR ACTIVITY</h3>
+  <p><i>Tracking UTC Zulu contribution coordinates across the flight deck</i></p>
+
+  <img src="https://raw.githubusercontent.com/harikcecaps4-max/harikcecaps4-max/output/radar-grid.svg" alt="Aviation Radar Contribution Graph" width="100%" />
+</div>
