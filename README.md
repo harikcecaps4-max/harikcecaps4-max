@@ -5,8 +5,8 @@
   <p><em>“The engine is the heart of an airplane, but the pilot is its soul — and software is its mind.”</em></p>
   
   <!-- Badges -->
-  <img src="https://shields.io" alt="Callsign" />
-  <img src="https://shields.io" alt="Home Base" />
+  <img src="https://img.shields.io/badge/CALLSIGN-MAVERICK-111827?style=for-the-badge&logo=aircanada&logoColor=white" alt="Callsign MAVERICK"/>
+  <img src="https://img.shields.io/badge/HOME_BASE-BENGALURU%2C%20INDIA-1E90FF?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Home Base Bengaluru"/>
   <img src="https://img.shields.io/badge/FLIGHT_STATUS-CLEARED_FOR_TAKEOFF-008000?style=for-the-badge" alt="Flight Status" />
   <img src="https://img.shields.io/badge/CRUISE_ALTITUDE-FL350-1E90FF?style=for-the-badge" alt="Altitude" />
 </div>
